@@ -6,7 +6,7 @@
 }
 
 .about__title {
-    color: var(--secondary-gray);
+    color: var(--primary-color);
     font-weight: 600;
 }
 
@@ -37,10 +37,6 @@
     grid-template-columns: 1fr 1fr;
     row-gap: 0.5rem;
     list-style-position: inside;
-}
-
-.about__technologies>li::marker {
-    color: var(--primary-green);
 }
 
 .about__image {
