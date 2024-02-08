@@ -12,6 +12,13 @@
     flex: 1;
 }
 
+
+.logo__link {
+    text-decoration: none;
+    color: var(--primary-color);
+    font-size: var(--text-4xl);
+}
+
 .user__icon {
     height: 3rem;
     width: 3rem;
@@ -84,6 +91,7 @@
 /* If go below this width, then will remove the nav links and show the mobile icon instead */
 @media (max-width: 768px) {
     .hamburger {
+        transform: translateY(10px);
         display: block;
     }
 
