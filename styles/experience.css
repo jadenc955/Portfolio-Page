@@ -6,7 +6,7 @@
 }
 
 .experience__title {
-    color: var(--secondary-gray);
+    color: var(--primary-color);
     font-weight: 600;
 }
 
@@ -24,7 +24,7 @@
 }
 
 .experience__role {
-    color: var(--secondary-gray);
+    color: var(--primary-color);
     font-size: var(--text-lg);
     font-weight: 400;
     margin-bottom: 0.5rem;
@@ -48,7 +48,7 @@
 }
 
 .experience__about > li::marker {
-    color: var(--primary-green);
+    color: var(--primary-color);
 }
 
 @media (min-width: 640px) {
