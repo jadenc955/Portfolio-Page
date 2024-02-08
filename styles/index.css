@@ -1,0 +1,133 @@
+/* Setting up custom CSS variables */
+
+:root {
+    --primary-color: black;
+    --secondary-color: white;
+    --tertiary-color: lightseagreen;
+    --primary-green: #64ffda;
+    --secondary-gray: #ccd6f6;
+    --bg-color: rgb(240, 240, 233);
+    /* font sizes */
+    --text-sm: 0.875rem;
+    --text-base: 1rem;
+    --text-lg: 1.125rem;
+    --text-xl: 1.25rem;
+    --text-2xl: 1.5rem;
+    --text-3xl: 1.875rem;
+    --text-4xl: 2.25rem;
+    --text-5xl: 3rem;
+    --text-6xl: 3.75rem;
+    --text-7xl: 4.5rem;
+}
+
+#home {
+    scroll-margin-top: 10rem;
+}
+
+#about {
+    scroll-margin-top: 10rem;
+}
+
+#experience {
+    scroll-margin-top: 10rem;
+}
+
+#work {
+    scroll-margin-top: 10rem;
+}
+
+#contact {
+    scroll-margin-top: 10rem;
+}
+
+/* General Styles */
+
+html {
+    font-family: system-ui;
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: rgb(240, 240, 233);
+    color: black;
+}
+
+.dim {
+    background-color: black;
+    opacity: 0.6;
+    position: fixed;
+    inset: 0;
+    z-index: 30;
+    transition: 0.3s;
+}
+
+/* Remove default styles */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.highlight {
+    color: var(--primary-color);
+}
+
+
+/* Remove this after completing at least 3 projects */
+.cross {
+    text-decoration: line-through;
+}
+
+
+/* Creates the underline effect for the navigation links */
+.underline {
+    border-bottom-width: 0;
+    background-image: linear-gradient(var(--tertiary-color), var(--tertiary-color));
+    background-size: 0 2px;
+    background-position: 0 100%;
+    background-repeat: no-repeat;
+    transition: background-size 0.2s;
+}
+
+.underline:hover {
+    background-size: 100% 2px;
+}
+
+/* Layout. Set a max width so that the div wont stick to the edge of the screen */
+main {
+    max-width: 16rem;
+    margin: auto;
+}
+
+/* If don't set the max-width at varying sizes, then it will always stay in the center */
+
+@media (min-width: 400px) {
+    main {
+        max-width: 24rem;
+    }
+}
+
+@media (min-width: 640px) {
+    main {
+        max-width: 32rem;
+    }
+}
+
+@media (min-width: 768px) {
+    main {
+        max-width: 42rem;
+    }
+}
+
+@media (min-width: 1024px) {
+    main {
+        max-width: 48rem;
+    }
+}
+
+@media (min-width: 1280px) {
+    main {
+        max-width: 64rem;
+    }
+}
