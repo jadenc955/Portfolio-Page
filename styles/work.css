@@ -6,7 +6,7 @@
 }
 
 .work__title {
-    color: var(--secondary-gray);
+    color: var(--primary-color);
     font-weight: 600;
 }
 
@@ -41,7 +41,7 @@
     font-size: var(--text-xl);
     font-weight: 600;
     margin-bottom: 0.625rem;
-    color: var(--secondary-gray);
+    color: var(--tertiary-color);
     text-decoration: none;
     position: relative;
     z-index: 10;
@@ -74,11 +74,11 @@
     height: 1.25rem;
     width: 1.25rem;
     z-index: 10;
-    color: var(--secondary-gray);
+    color: var(--primary-color);
 }
 
 .project__links > a:hover {
-    color: var(--primary-green);
+    color: var(--tertiary-color);
 }
 
 .project__image {
