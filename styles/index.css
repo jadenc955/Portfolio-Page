@@ -96,38 +96,6 @@ body {
 
 /* Layout. Set a max width so that the div wont stick to the edge of the screen */
 main {
-    max-width: 16rem;
+    max-width: 80%;
     margin: auto;
-}
-
-/* If don't set the max-width at varying sizes, then it will always stay in the center */
-
-@media (min-width: 400px) {
-    main {
-        max-width: 24rem;
-    }
-}
-
-@media (min-width: 640px) {
-    main {
-        max-width: 32rem;
-    }
-}
-
-@media (min-width: 768px) {
-    main {
-        max-width: 42rem;
-    }
-}
-
-@media (min-width: 1024px) {
-    main {
-        max-width: 48rem;
-    }
-}
-
-@media (min-width: 1280px) {
-    main {
-        max-width: 64rem;
-    }
 }
