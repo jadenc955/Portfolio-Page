@@ -22,7 +22,7 @@
 }
 
 .social__link:hover {
-    color: var(--primary-green);
+    color: var(--tertiary-color);
 }
 
 .social__icon {

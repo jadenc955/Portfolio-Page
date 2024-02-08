@@ -10,16 +10,18 @@ hamburger.addEventListener("click", () => {
   background.classList.toggle("dim"); 
 });
 
-for (const navLink of navLinks) {
-  navLink.addEventListener("click", () => {
-    hamburger.classList.remove("active");
-    navContainer.classList.remove("active");
-    background.classList.remove("dim");
-  });
-}
 
-resumeLink.addEventListener("click", () => {
+function removeDropDown() {
   hamburger.classList.remove("active");
   navContainer.classList.remove("active");
   background.classList.remove("dim");
-});
+}
+
+window.addEventListener("resize", removeDropDown);
+
+for (const navLink of navLinks) {
+  navLink.addEventListener("click", removeDropDown);
+}
+
+resumeLink.addEventListener("click", removeDropDown);
+
