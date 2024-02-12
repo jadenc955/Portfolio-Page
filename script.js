@@ -8,7 +8,7 @@ hamburger.addEventListener("click", () => {
   hamburger.classList.toggle("active");
   navContainer.classList.toggle("active");
   background.classList.toggle("dim"); 
-});
+})
 
 function removeDropDown() {
   hamburger.classList.remove("active");
