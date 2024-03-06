@@ -19,6 +19,7 @@
 
 .work__card {
     position: relative;
+    border: 1px solid lightgrey;
     border-radius: 0.25rem;
     transition: 0.3s;
 }
@@ -82,9 +83,7 @@
 }
 
 .project__image {
-    position: absolute;
-    inset: 0;
-    opacity: 10%;
+    height: 20rem;
 }
 
 .project__image > img {

@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="styles/header.css">
     <link rel="stylesheet" href="styles/home.css">
     <link rel="stylesheet" href="styles/about.css">
-    <link rel="stylesheet" href="styles/experience.css">
+    <!-- <link rel="stylesheet" href="styles/experience.css"> -->
     <link rel="stylesheet" href="styles/work.css">
     <link rel="stylesheet" href="styles/contact.css">
     <link rel="stylesheet" href="styles/footer.css">
@@ -42,11 +42,11 @@
                 <li class="link__item">
                     <a class="link__name underline" href="#about">About</a>
                 </li>
-                <li class="link__item">
+                <!-- <li class="link__item">
                     <a class="link__name underline" href="#experience">Experience</a>
-                </li>
+                </li> -->
                 <li class="link__item">
-                    <a class="link__name underline" href="#work">Work</a>
+                    <a class="link__name underline" href="#work">Projects</a>
                 </li>
                 <li class="link__item">
                     <a class="link__name underline" href="#contact">Contact</a>
@@ -73,7 +73,7 @@
             </p>
 
             <div class="home__cta">
-                <a class="cta__link" href="mailto:wjchew95@gmail.com">Contact Me</a>
+                <a class="cta__link" href="mailto:wjchew88@outlook.com">Contact Me</a>
             </div>
         </section>
 
@@ -89,12 +89,10 @@
                             knowledge and exploring technology. My interest in programming started back in 2019 when I
                             decided to try self teach myself Web Development through a Udemy course.</p>
 
-                        <p>Fast-forward to today, I have built several projects, including an
-                            <span class="highlight cross">E-commerce platform</span>, <span class="highlight cross">a
-                                logistic company dashboard</span>, and <span class="highlight cross">a site generation
-                                tool</span>. My main
-                            focus
-                            these days is building projects and continue learning more about web development.
+                        <p>Fast-forward to today, I have built several projects, including a Todo App, Comprehensive
+                            Todo App (CRUD), and Light/Dark Theme Switcher. My main focus
+                            these days is learning full-stack development and building projects to get my first software
+                            development job.
                         </p>
 
                         <p>Here are a few technologies I have been working with recently:</p>
@@ -102,10 +100,10 @@
 
                     <ul class="about__technologies">
                         <li>HTML</li>
-                        <li>CSS</li>
-                        <li>JavaScript</li>
-                        <li>TailwindCSS</li>
                         <li>React</li>
+                        <li>CSS</li>
+                        <li>Bootstrap</li>
+                        <li>JavaScript</li>
                         <li>Node.js</li>
                     </ul>
                 </div>
@@ -116,7 +114,7 @@
             </div>
         </section>
 
-        <section id="experience" class="experience__section">
+        <!-- <section id="experience" class="experience__section">
             <h2 class="experience__title">
                 Where I've Worked
             </h2>
@@ -167,7 +165,7 @@
                 </div>
             </div>
 
-        </section>
+        </section> -->
 
         <section id="work" class="work__section">
             <h2 class="work__title">
@@ -176,17 +174,23 @@
 
             <div class="work__cards">
                 <div class="work__card">
+                    <div class="project__image">
+                        <img src="assets/Todo App.PNG" alt="">
+                    </div>
                     <div class="project__container">
-                        <a class="project__title" href="#">Contact Page</a>
-                        <p class="project__description">Simple contact page built using HTML and CSS.</p>
+                        <a class="project__title">Todo App</a>
+                        <p class="project__description">Simple Todo App built using HTML, CSS, React and Bootstrap.</p>
 
                         <ul class="project__technologies">
                             <li>HTML</li>
                             <li>CSS</li>
+                            <li>React</li>
+                            <li>Bootstrap</li>
                         </ul>
 
                         <div class="project__links">
-                            <a href="https://github.com/jadenc955/Projects" target="_blank">
+                            <a href="https://github.com/jadenc955/sigma-school-projects/tree/52d846a53c1ef6d41cd0c34e6d8d5219acc8b5d8/React/todo-list-app"
+                                target="_blank">
                                 <svg xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" fill="none"
                                     stroke="currentColor" stroke-width="2" stroke-linecap="round"
                                     stroke-linejoin="round">
@@ -198,23 +202,30 @@
                             </a>
                         </div>
                     </div>
-                    <div class="project__image">
-                        <img src="assets/Contact Page.PNG" alt="">
-                    </div>
-                    <a class="work__link" href="https://www.google.com/" target="_blank"></a>
+                    <a class="work__link"
+                        href="https://github.com/jadenc955/sigma-school-projects/tree/52d846a53c1ef6d41cd0c34e6d8d5219acc8b5d8/React/todo-list-app"
+                        target="_blank"></a>
                 </div>
                 <div class="work__card">
+                    <div class="project__image">
+                        <img src="assets/Todo App v2.PNG" alt="">
+                    </div>
                     <div class="project__container">
-                        <a class="project__title" href="#">Contact Page</a>
-                        <p class="project__description">Simple contact page built using HTML and CSS.</p>
+                        <a class="project__title">Comprehensive Todo App</a>
+                        <p class="project__description">Comprehensive Todo App with CRUD functionalities, allowing the
+                            user to create, read, update and delete tasks. Built using HTML, CSS, React and Bootstrap.
+                        </p>
 
                         <ul class="project__technologies">
                             <li>HTML</li>
                             <li>CSS</li>
+                            <li>React</li>
+                            <li>Bootstrap</li>
                         </ul>
 
                         <div class="project__links">
-                            <a href="https://github.com/jadenc955/Projects" target="_blank">
+                            <a href="https://github.com/jadenc955/sigma-school-projects/tree/52d846a53c1ef6d41cd0c34e6d8d5219acc8b5d8/React/todo-app-v2"
+                                target="_blank">
                                 <svg xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" fill="none"
                                     stroke="currentColor" stroke-width="2" stroke-linecap="round"
                                     stroke-linejoin="round">
@@ -226,23 +237,27 @@
                             </a>
                         </div>
                     </div>
-                    <div class="project__image">
-                        <img src="assets/Contact Page.PNG" alt="">
-                    </div>
-                    <a class="work__link" href="https://www.google.com/" target="_blank"></a>
+                    <a class="work__link"
+                        href="https://github.com/jadenc955/sigma-school-projects/tree/52d846a53c1ef6d41cd0c34e6d8d5219acc8b5d8/React/todo-app-v2"
+                        target="_blank"></a>
                 </div>
                 <div class="work__card">
+                    <div class="project__image">
+                        <img src="assets/LightDark.PNG" alt="">
+                    </div>
                     <div class="project__container">
-                        <a class="project__title" href="#">Contact Page</a>
-                        <p class="project__description">Simple contact page built using HTML and CSS.</p>
+                        <a class="project__title">Light/Dark Theme Switcher</a>
+                        <p class="project__description">Simple Light/Dark Theme Switcher built using HTML, CSS, and React.</p>
 
                         <ul class="project__technologies">
                             <li>HTML</li>
                             <li>CSS</li>
+                            <li>React</li>
                         </ul>
 
                         <div class="project__links">
-                            <a href="https://github.com/jadenc955/Projects" target="_blank">
+                            <a href="https://github.com/jadenc955/sigma-school-projects/tree/52d846a53c1ef6d41cd0c34e6d8d5219acc8b5d8/React/light-dark-theme"
+                                target="_blank">
                                 <svg xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" fill="none"
                                     stroke="currentColor" stroke-width="2" stroke-linecap="round"
                                     stroke-linejoin="round">
@@ -254,11 +269,11 @@
                             </a>
                         </div>
                     </div>
-                    <div class="project__image">
-                        <img src="assets/Contact Page.PNG" alt="">
-                    </div>
-                    <a class="work__link" href="https://www.google.com/" target="_blank"></a>
+                    <a class="work__link"
+                        href="https://github.com/jadenc955/sigma-school-projects/tree/52d846a53c1ef6d41cd0c34e6d8d5219acc8b5d8/React/light-dark-theme"
+                        target="_blank"></a>
                 </div>
+
 
             </div>
         </section>
@@ -275,7 +290,7 @@
                         open and I'll try my best to get back to you! </p>
                 </div>
                 <div class="contact__cta">
-                    <a href="mailto:wjchew95@gmail.com">Say Hello</a>
+                    <a href="mailto:wjchew88@outlook.com">Say Hello</a>
                 </div>
             </div>
         </section>
@@ -284,7 +299,7 @@
     <footer class="footer__container">
         <ul class="footer__socials">
             <li class="social__item">
-                <a class="social__link" href="#">
+                <a class="social__link" href="https://github.com/jadenc955" target="_blank">
                     <svg class="social__icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
                         <title>GitHub</title>
                         <path
@@ -293,7 +308,7 @@
                     </svg>
                 </a>
             </li>
-            <li class="social__item">
+            <!-- <li class="social__item">
                 <a class="social__link" href="#">
                     <svg class="social__icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
                         <title>Twitter</title>
@@ -302,9 +317,11 @@
                         </path>
                     </svg>
                 </a>
-            </li>
+            </li> -->
             <li class="social__item">
-                <a class="social__link" href="#">
+                <a class="social__link"
+                    href="https://www.linkedin.com/in/wei-jie-chew-bfp-aca-qualified-icaew-chartered-accountant/"
+                    target="_blank">
                     <svg class="social__icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
                         <title>LinkedIn</title>
                         <path
